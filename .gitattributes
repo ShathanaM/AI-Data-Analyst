@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude index.html from GitHub language statistics
+index.html linguist-detectable=false
+
+# Treat Jupyter Notebooks as Python code
+*.ipynb linguist-language=Python

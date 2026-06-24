@@ -1,0 +1,26 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+active_env/
+*.env
+
+# Local logs & output redirect dumps
+out.txt
+*.log
+
+# IDE & system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
