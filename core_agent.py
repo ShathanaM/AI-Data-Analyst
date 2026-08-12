@@ -9,7 +9,7 @@ class SelfHealingAnalystEngine:
     def __init__(self):
         # Initialize the Google GenAI client
         self.client = genai.Client()
-        self.model_name = "gemini-2.5-flash"
+        self.model_name = "gemini-3.6-flash"
 
     def generate_analysis_code(self, prompt_context: str, error_message: str = None) -> str:
         """Asks Gemini to write clean analytical code based on available variables."""
